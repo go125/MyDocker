@@ -22,7 +22,7 @@ ARG NUM_THREADS=2
 # ENV LD_LIBRARY_PATH=${CMAKE_INSTALL_PREFIX}/lib:${LD_LIBRARY_PATH}
 
 # OpenCV
-ARG OPENCV_VERSION=3.4.3
+ARG OPENCV_VERSION=4.4.0
 WORKDIR /tmp
 RUN set -x && \
   wget -q https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip && \
